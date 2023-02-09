@@ -31,15 +31,15 @@ function MobilePhone() {
       <div className='device_specs'>
       <div className='specs_details'>
         <div className='specs_line'>
-          <img className='icon' src='/icons/cpu.png' alt=''/>
+          <img className='icon' src='/icons/calendar.png' alt=''/>
           <div className='margin_left_1'>{data.release_date}</div>
         </div>
         <div className='specs_line'>
-        <img className='icon' src='/icons/cpu.png' alt=''/>
+        <img className='icon' src='/icons/smartphone.png' alt=''/>
           <div className='margin_left_1'>{data.dimensions}</div>
         </div>
         <div className='specs_line'>
-        <img className='icon' src='/icons/cpu.png' alt=''/>
+        <img className='icon' src='/icons/code.png' alt=''/>
           <div className='margin_left_1'>{data.os}</div>
 
         </div>
@@ -50,12 +50,12 @@ function MobilePhone() {
       </div>
       <div className='camera_screen'>
       <div className='screen'>
-      <img className='icon' src='/icons/cpu.png' alt=''/>
+      <img className='icon' src='/icons/screen.png' alt=''/>
         <div>{data.screen.size}</div>
         <div>{data.screen.dimensions}</div>
       </div>
       <div className='camera'>
-      <img className='icon' src='/icons/cpu.png' alt=''/>
+      <img className='icon' src='/icons/lens.png' alt=''/>
         <div>{data.camera.nb_pixels}</div>
         <div>{data.camera.quality}</div>
       </div>
@@ -72,7 +72,7 @@ function MobilePhone() {
         </div>
       </div>
       <div className='battery'>
-      <img className='icon' src='/icons/cpu.png' alt=''/>
+      <img className='icon' src='/icons/charging.png' alt=''/>
         <div>{data.battery.capacity}</div>
         <div>{data.battery.type}</div>
       </div>
